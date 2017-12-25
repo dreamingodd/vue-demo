@@ -7,9 +7,25 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/',
-      name: 'HelloWorld',
+      path: '/hello',
+      name: 'hello',
       component: HelloWorld
+    },
+    {
+      path: '/',
+      name: 'map',
+      component: Map
     }
+    // ,
+    // {
+    //   path: '/balance',
+    //   name: 'balance',
+    //   component: Balance
+    // },
+    // {
+    //   path: '/transfer',
+    //   name: 'transfer',
+    //   component: Transfer
+    // }
   ]
 })
